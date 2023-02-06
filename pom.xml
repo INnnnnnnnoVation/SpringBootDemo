@@ -48,6 +48,17 @@
                     </excludes>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <!-- 版本可自己选择-->
+                <configuration>
+                    <!--j源的dk版本设置为8-->
+                    <source>19</source>
+                    <!--目标的jdk版本设置为8-->
+                    <target>19</target>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
