@@ -4,8 +4,11 @@
 name: Maven Package
 
 on:
-  release:
-    types: [created]
+  push:
+    branches: [ main ]
+  # main分支的pr操作会触发当前脚本的执行
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
