@@ -7,8 +7,6 @@ on:
   push:
     branches: [ main ]
   # main分支的pr操作会触发当前脚本的执行
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
@@ -31,7 +29,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
-    - name: Publish to GitHub Packages Apache Maven
+    - name: Publish to GitHub Packages Nexus
       run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       env:
         GITHUB_TOKEN: ${{ github.token }}
