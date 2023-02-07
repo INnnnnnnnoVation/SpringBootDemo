@@ -44,7 +44,8 @@ jobs:
         namespaces: 'fengxiangfei'
         repository_name: 'apersonal'
         user_name: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+#         password: ${{ secrets.DOCKER_PASSWORD }}
+        password: Fxf19950315
         image_version: 'v1.0'
         docker_file: '.'
 
