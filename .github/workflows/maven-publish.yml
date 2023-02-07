@@ -42,4 +42,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: xiangfeifeng/xiangfeifeng/personal:latest
+        tags: xiangfeifeng/personal:latest
