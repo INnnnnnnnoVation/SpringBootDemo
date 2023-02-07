@@ -34,7 +34,7 @@ jobs:
         registry_url: 'docker.io'
         repository_name: 'xiangfeifeng/personal'
         user_name: 'xiangfeifeng'
-        password: 'dckr_pat_uO0Wy4uHn0Iu2Not9j7U9dNmu1w'
+        password: 'dckr_pat_S7Wh8eMOlVY8BggflH77GNAWJ14'
         image_version: 'v1.0'
         docker_file: '.'
 #     - name: Docker Images Build And Push
