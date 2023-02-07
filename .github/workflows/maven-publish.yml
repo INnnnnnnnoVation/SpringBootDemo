@@ -31,7 +31,7 @@ jobs:
     - name: DockerHub Build And Push
       uses: Abhishek-070/Dockerhub-Build-Push@v1.0
       with:
-        registry_url: 'hub.docker.com'
+        registry_url: 'hub.docker.com/r'
         repository_name: 'xiangfeifeng/personal'
         user_name: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
