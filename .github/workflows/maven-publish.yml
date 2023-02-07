@@ -43,10 +43,10 @@ jobs:
         registry_url: 'docker.io'
         namespaces: 'fengxiangfei'
         repository_name: 'personal'
-#         user_name: ${{ secrets.DOCKER_USERNAME }}
-#         password: ${{ secrets.DOCKER_PASSWORD }}
-        user_name: xiangfeifeng
-        password: Fxf19950315
+        user_name: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+#         user_name: xiangfeifeng
+#         password: Fxf19950315
         image_version: 'v1.0'
         docker_file: '.'
 
