@@ -37,9 +37,14 @@ jobs:
 #         password: ${{ secrets.DOCKER_PASSWORD }}
 #         image_version: 'v1.0'
 #         docker_file: '.'
-    - name: Build and push Docker images
-      uses: docker/build-push-action@v4.0.0
+    - name: Docker Images Build And Push
+      uses: risfeng/docker-image-build-push-action@v1.0
       with:
-        context: .
-        push: true
-        tags: xiangfeifeng/personal:latest
+        registry_url: 'docker.io'
+        namespaces: 'fengxiangfei'
+        repository_name: 'apersonal'
+        user_name: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        image_version: 'v1.0'
+        docker_file: '.'
+
