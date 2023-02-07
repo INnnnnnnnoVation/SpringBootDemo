@@ -62,11 +62,11 @@
         </plugins>
     </build>
     <distributionManagement>
-<!--        <repository>-->
-<!--            <id>nexus-releases</id>-->
-<!--            <name>Internal Releases</name>-->
-<!--            <url>http://43.138.130.26:8081/repository/maven-releases/</url>-->
-<!--        </repository>-->
+        <repository>
+            <id>nexus-releases</id>
+            <name>Internal Releases</name>
+            <url>http://43.138.130.26:8081/repository/maven-releases/</url>
+        </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
             <name>Internal Snapshots</name>
