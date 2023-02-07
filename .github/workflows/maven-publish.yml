@@ -36,4 +36,4 @@ jobs:
         user_name: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         image_version: 'v1.0'
-        docker_file: '.'
+        docker_file: 'Dockerfile'
