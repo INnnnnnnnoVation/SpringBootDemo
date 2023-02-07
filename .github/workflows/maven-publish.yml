@@ -32,7 +32,7 @@ jobs:
       uses: Abhishek-070/Dockerhub-Build-Push@v1.0
       with:
         registry_url: 'docker.io'
-        repository_name: 'xiangfeifeng/personal'
+        repository_name: 'xiangfeifeng/springbootdemo'
         user_name: 'xiangfeifeng'
         password: 'dckr_pat_S7Wh8eMOlVY8BggflH77GNAWJ14'
         image_version: 'v1.0'
