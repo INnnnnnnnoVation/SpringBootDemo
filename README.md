@@ -1,2 +1,2 @@
-# SpringBootDemo
-an empty springboot project
+# 使用github actions进行CI实战
+本项目使用github action提供的workflow完成了一个springboot项目的构建，并制作了docker镜像
